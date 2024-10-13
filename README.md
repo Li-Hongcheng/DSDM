@@ -2,12 +2,12 @@
 
 ## Run
 
-1. prepare pre-trianed models
+1. prepare pre-trained models
 
 ```
 python pre_train_model.py --reproduce  -d [dataset]
 ```
-2. preform distilling process by DSDM
+2. distilling process 
 
 ```
 python DSDM.py  --reproduce -d [dataset] -f 2 --ipc [instance/class]
